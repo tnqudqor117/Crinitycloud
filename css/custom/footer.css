@@ -1,0 +1,24 @@
+/*footer*/
+.footer {width: 100%;max-width: 1200px;margin: 0 auto;overflow: hidden;padding: 35px 0 45px;}
+.footer > div {float: left;}
+.footer > div.logo-box {width: 15%;padding-right: 30px;}
+.footer > div.footer-box {width: 85%;}
+.footer > div ul {overflow: hidden;display: inline-block;}
+.footer > div ul > li {float: left;}
+.footer > div ul.menu-list > li {padding: 6px 12px;font-size: 15px;}
+.footer > div ul.menu-list > li:first-child {padding-left: 0;}
+.footer > div ul.sns-list > li {float: left; padding: 0 5px;} 
+.footer > div ul.sns-list > li.mail {padding-top: 3px;}
+.footer > div ul.sns-list > li.mail a {color: #005ac6;font-size: 13px;}
+.footer > div ul.sns-list > li.mail img {margin-right: 4px; }
+.footer > div .op-box {margin-top: 30px;}
+
+@media all and (max-width:767px){
+	.footer {padding: 25px 0;}
+	.footer > div.logo-box {width: 100%;text-align: center;}
+	.footer > div.footer-box {width: 100%;}
+	.footer > div ul {display: block;text-align: center;margin: 10px 0;}
+	.footer > div ul > li,
+	.footer > div ul.sns-list > li {float: none;display: inline-block;}
+	.footer > div .op-box {margin-top: 10px;text-align: center;}
+}
